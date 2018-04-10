@@ -164,10 +164,7 @@ body {
   text-align: center;
 }
 
-.pic{
-  position: relative;
-  z-index: 15;
-}
+
 .flag {
   position: relative;
   display: inline;
@@ -302,6 +299,10 @@ body {
 .flag {
 	background: rgb(255,255,255);
 	z-index: 15;
+}
+.pic{
+  position: relative;
+  z-index: 15;
 }
 
 .direction-l .flag:before,
