@@ -164,6 +164,10 @@ body {
   text-align: center;
 }
 
+.pic{
+  position: relative;
+  z-index: 15;
+}
 .flag {
   position: relative;
   display: inline;
