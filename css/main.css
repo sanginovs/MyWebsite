@@ -63,20 +63,6 @@ div.link {
 
 }
 
-@media only screen and (orientation: portrait) {
-img.page {
-width: 100%
-}
-img.sign {
-width: 24%
-}
-div.link {
-width: 24%;
-padding-top: 12%;
-}
-#music {
-width: 50%
-}}
 
 body {
   margin: 0;
@@ -274,6 +260,19 @@ body {
 /* ================ Timeline Media Queries ================ */
 
 @media screen and (max-width: 660px) {
+img.page {
+width: 100%
+}
+img.sign {
+width: 24%
+}
+div.link {
+width: 24%;
+padding-top: 12%;
+}
+#music {
+width: 50%;}
+
 
 .timeline {
  	width: 100%;
